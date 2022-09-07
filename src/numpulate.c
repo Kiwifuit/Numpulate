@@ -3,15 +3,12 @@
 /// @return The negated number. This would be negative if 'i' was positive, and vice versa
 int negate(int i)
 {
-  if (i > 0)
-  {
-    return i - i_doubled(i);
-  }
+  return i - i_doubled(i);
 }
 
 /// @brief Multiplies i by two
 /// @param i The number to double
-/// @return The doubled number (i*2)
+/// @return The doubled number (i * 2)
 int i_doubled(int i)
 {
   return i * 2;
