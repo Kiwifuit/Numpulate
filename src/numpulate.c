@@ -14,16 +14,7 @@ int negate(int i)
 /// @return The doubled number (i*2)
 int i_doubled(int i)
 {
-  return (int)mul(i, 2);
-}
-
-/// @brief Multiplies two doubles
-/// @param a First number to multiply
-/// @param b Second number to multiply
-/// @return Product of a * b
-double mul(double a, double b)
-{
-  return a * b;
+  return i * 2;
 }
 
 /// @brief Reverses a number (e.g. 123 would be 321)
