@@ -14,7 +14,7 @@ int negate(int i)
 /// @return The doubled number (i*2)
 int i_doubled(int i)
 {
-  return mul((double)i, 2);
+  return (int)mul(i, 2);
 }
 
 /// @brief Multiplies two doubles
