@@ -25,3 +25,20 @@ double mul(double a, double b)
 {
   return a * b;
 }
+
+/// @brief Reverses a number (e.g. 123 would be 321)
+/// @param i The number to reverse
+/// @return THe reversed number
+int reverse(int i)
+{
+  int rem, rev = 0;
+
+  while (i != 0)
+  {
+    rem = i % 10;
+    rev *= 10 + rem;
+    i /= 10;
+  }
+
+  return rev;
+}
