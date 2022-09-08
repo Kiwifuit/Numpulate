@@ -5,6 +5,7 @@ A simple C library
 - [Numpulate](#numpulate)
   - [Why I made this](#why-i-made-this)
   - [Compilation](#compilation)
+- [Testing](#testing)
 
 ## Why I made this
 
@@ -36,3 +37,16 @@ You run these commands:
 cmake .
 make
 ```
+
+# Testing
+
+When testing the library, run these commands:
+
+```
+cd src
+make
+./test
+make clean
+```
+
+This will build the test program and run it
