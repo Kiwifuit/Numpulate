@@ -16,6 +16,8 @@ I wanted to have a little bit experience on Rust's FFI and how to call C from Ru
 
 You can get the output binaries in the *releases* tab.
 
+> If you're curious, the rust bindings for this repo can be accessed [here](https://github.com/Kiwifuit/Numpulate-rs)
+
 ## Compilation
 
 ***NOTE: I assume you're using linux for this, and that you have `cmake` and `make` installed. I assume the process is the same for MacOS and other \*nix systems***
