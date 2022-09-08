@@ -24,7 +24,7 @@ int reverse(int i)
   while (i != 0)
   {
     rem = i % 10;
-    rev *= 10 + rem;
+    rev = rev * 10 + rem;
     i /= 10;
   }
 

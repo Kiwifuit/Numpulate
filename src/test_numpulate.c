@@ -4,8 +4,8 @@
 int main()
 {
   int neg = negate(1);
-  int rev = reverse(21);
+  int rev = reverse(129);
 
   printf("1 negated is %i\n", neg);
-  printf("21 negated is %i\n", rev);
+  printf("129 negated is %i\n", rev);
 }
