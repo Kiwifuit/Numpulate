@@ -10,3 +10,7 @@
 
 # The library itself
 /libnumpulate.a
+
+# Prevent accidentally committing the test build files
+/src/test
+/src/libnumpulate.o
